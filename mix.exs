@@ -34,7 +34,7 @@ defmodule Youtex.MixProject do
       {:elixir_xml_to_map, "~> 2.0"},
       {:ex_doc, "~> 0.25", only: :dev, runtime: false},
       {:poison, "~> 5.0"},
-      {:httpoison, "~> 1.8"},
+      {:httpoison, "~> 2.0"},
       {:typed_struct, "~> 0.2"},
       {:dialyxir, "~> 1.1", only: [:dev], runtime: false},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
